@@ -32,9 +32,11 @@
     #aboutme,
     #about,
     #note,
-    #appreciation,
+    #appreciation-1,
+    #appreciation-2,
     .poem,
-    #appreciationwords,
+    #appreciationwords-1,
+    #appreciationwords-2,
     #notewords {
         margin: 10px 0;
         background: white;
@@ -49,7 +51,8 @@
     #special,
     #aboutme,
     #note,
-    #appreciation {
+    #appreciation-1,
+    #appreciation-2 {
         font-weight: 600;
         border-left: 4px solid;
         border-color: burlywood;
@@ -119,12 +122,19 @@
     
     #note,
     #notewords,
-    #appreciation,
-    #appreciationwords {
+    #appreciation-1,
+    #appreciation-2,
+    #appreciationwords-1,
+    #appreciationwords-2 {
         margin-top: 50px;
     }
     
-    #appreciationwords span {
+    #appreciationwords-1 span {
+        font-size: 12;
+        font-style: italic;
+    }
+
+    #appreciationwords-2 span {
         font-size: 12;
         font-style: italic;
     }
@@ -135,7 +145,8 @@
     }
     
     #notewords,
-    #appreciationwords {
+    #appreciationwords-1,
+    #appreciationwords-2 {
         display: none;
     }
     

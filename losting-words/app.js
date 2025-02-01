@@ -74,11 +74,17 @@ $(function () {
     $("#note").click(function () {
         $("#notewords").hide(1000);
     });
-    $("#appreciation").mouseover(function () {
-        $("#appreciationwords").show(1000);
+    $("#appreciation-1").mouseover(function () {
+        $("#appreciationwords-1").show(1000);
     });
-    $("#appreciation").click(function () {
-        $("#appreciationwords").hide(1000);
+    $("#appreciation-1").click(function () {
+        $("#appreciationwords-1").hide(1000);
+    });
+    $("#appreciation-2").mouseover(function () {
+        $("#appreciationwords-2").show(1000);
+    });
+    $("#appreciation-2").click(function () {
+        $("#appreciationwords-2").hide(1000);
     });
 });
 $(function () {
