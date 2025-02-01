@@ -31,13 +31,15 @@
     #speciallist,
     #aboutme,
     #about,
-    #note,
+    #note-1,
+    #note-2,
     #appreciation-1,
     #appreciation-2,
     .poem,
     #appreciationwords-1,
     #appreciationwords-2,
-    #notewords {
+    #notewords-1,
+    #notewords-2 {
         margin: 10px 0;
         background: white;
         filter: alpha(opacity=40);
@@ -50,7 +52,8 @@
     #famous,
     #special,
     #aboutme,
-    #note,
+    #note-1,
+    #note-2,
     #appreciation-1,
     #appreciation-2 {
         font-weight: 600;
@@ -120,8 +123,10 @@
     }
     /*詩篇設計*/
     
-    #note,
-    #notewords,
+    #note-1,
+    #note-2,
+    #notewords-1,
+    #notewords-2,
     #appreciation-1,
     #appreciation-2,
     #appreciationwords-1,
@@ -139,12 +144,18 @@
         font-style: italic;
     }
     
-    #notewords span {
+    #notewords-1 span {
+        font-size: 12;
+        font-style: italic;
+    }
+
+    #notewords-2 span {
         font-size: 12;
         font-style: italic;
     }
     
-    #notewords,
+    #notewords-1,
+    #notewords-2,
     #appreciationwords-1,
     #appreciationwords-2 {
         display: none;

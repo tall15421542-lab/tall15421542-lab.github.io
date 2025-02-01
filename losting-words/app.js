@@ -68,11 +68,17 @@ $(function () {
 //導覽列特效結束
 //詩篇特效 //#note,#notewovcxfrds, #appreciation,  #appreciationwords 
 $(function () {
-    $("#note").mouseover(function () {
-        $("#notewords").show(1000);
+    $("#note-1").mouseover(function () {
+        $("#notewords-1").show(1000);
     });
-    $("#note").click(function () {
-        $("#notewords").hide(1000);
+    $("#note-1").click(function () {
+        $("#notewords-1").hide(1000);
+    });
+    $("#note-2").mouseover(function () {
+        $("#notewords-2").show(1000);
+    });
+    $("#note-2").click(function () {
+        $("#notewords-2").hide(1000);
     });
     $("#appreciation-1").mouseover(function () {
         $("#appreciationwords-1").show(1000);
