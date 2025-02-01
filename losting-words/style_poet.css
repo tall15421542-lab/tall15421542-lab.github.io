@@ -1,0 +1,157 @@
+    /*詩人頁面開始*/
+    
+    body {
+        background-image: url(photos/background_poet2.jpg);
+        background-attachment: fixed;
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #poetname {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: left;
+        margin: 50px 0;
+        border-left: 4px solid;
+        border-color: #7e6b53;
+    }
+    
+    #poet {
+        width: 60%;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+    }
+    
+    #number,
+    #age,
+    #famous,
+    #special,
+    #speciallist,
+    #aboutme,
+    #about,
+    #note,
+    #appreciation,
+    .poem,
+    #appreciationwords,
+    #notewords {
+        margin: 10px 0;
+        background: white;
+        filter: alpha(opacity=40);
+        background-color: rgba(255, 255, 255, .4);
+        border-radius: 5px;
+    }
+    
+    #number,
+    #age,
+    #famous,
+    #special,
+    #aboutme,
+    #note,
+    #appreciation {
+        font-weight: 600;
+        border-left: 4px solid;
+        border-color: burlywood;
+    }
+    /*詩人頁面結束*/
+    
+    #pieces {
+        width: 60%;
+        font-size: 16px;
+    }
+    
+    #collection {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: left;
+        font-weight: 600;
+        border-left: 4px solid;
+        border-color: burlywood;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .poembuttom {
+        width: 100px;
+        height: 40px;
+        border: 1px solid;
+        border-color: #f0d2aa;
+        border-radius: 10px;
+        opacity: 0.6;
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .poembuttom a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    
+    .poembuttom a:hover {
+        font-weight: 900;
+    }
+    
+    .poembuttom:hover {
+        opacity: 1;
+        background-color: #f0d2aa;
+    }
+    
+    .poem {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 16px;
+        height: 100vh;
+        padding-top: 100px;
+        line-height: 30px;
+    }
+    
+    @media screen and (max-width: 700px) {
+        * {
+            font-size: 12px;
+        }
+    }
+    /*詩篇設計*/
+    
+    #note,
+    #notewords,
+    #appreciation,
+    #appreciationwords {
+        margin-top: 50px;
+    }
+    
+    #appreciationwords span {
+        font-size: 12;
+        font-style: italic;
+    }
+    
+    #notewords span {
+        font-size: 12;
+        font-style: italic;
+    }
+    
+    #notewords,
+    #appreciationwords {
+        display: none;
+    }
+    
+    #text {
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 60px auto;
+        border: 3px solid;
+        border-radius: 10px;
+        border-color: rosybrown;
+        padding: 20px;
+    }
+    
+    #text span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    /*詩篇設計結束*/

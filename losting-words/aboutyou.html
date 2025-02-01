@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>aboutyou</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_test.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="jumbotron">
+            <div class="container"> <img src="finish/logo.png" width="200"> </div>
+        </div>
+    </section>
+    <!-- TODO 導覽列開始-->
+    <!-- /* 導覽列固定不動，透明度80%-->
+    <div class="container" id="nav">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!--導覽列 RWD選單圖示與品牌連結 -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">觸發縮放</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Losting Word</a> </div>
+                <!-- 導覽列選項 與導覽列中的表單元素 -->
+                <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!-- 導覽列中的導覽清單 -->
+                    <ul class="nav navbar-nav">
+                        <!-- active的選項-->
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="index.html">關於詞</a></li>
+                        <!-- 導覽清單中的dropdown選單 -->
+                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"> 關於詞人 <span class="caret"></span></a>
+                            <!--span 小三角形的語法-->
+                            <ul class="dropdown-menu">
+                                <li><a href="circle1.html">李清照</a></li>
+                                <li><a href="circle2.html">李　煜</a></li>
+                                <li><a href="circle3.html">歐陽脩</a></li>
+                                <li><a href="circle4.html">辛棄疾</a></li>
+                                <li><a href="circle5.html">周邦彥</a></li>
+                                <li><a href="circle6.html">蘇　軾</a></li>
+                                <li><a href="circle7.html">秦　觀</a></li>
+                                <li><a href="circle8.html">晏　殊</a></li>
+                                <li><a href="circle9.html">柳　永</a></li>
+                                <li><a href="circle10.html">顧太清</a></li>
+                                <li><a href="circle11.html">納蘭性德</a></li>
+                                <li><a href="circle12.html">吳　藻</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="aboutyou.html">關於你</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!--導覽列結束-->
+    <!--測驗開始-->
+    <div class="container">
+        <button id="you" class="btn">About You</button>
+    </div>
+    <!-- TODO 心理測驗-->
+    <div class="container" id="psytest">
+        <!--TODO 第一題-->
+        <div class="wrapper">
+            <form>
+                <div id="question1" class="item">
+                    <div class="question">1. 你抽到了太空旅行，要到B612星球探訪小王子，你會選擇穿甚麼服裝與他見面? </div>
+                    <input type="radio" id="a" name="q1" value=1>
+                    <label for="a">A 西裝與晚禮服</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="b" name="q1" value=2>
+                    <label for="b">B 海灘褲或比基尼</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="c" name="q1" value=3>
+                    <label for="c">C 馬褂或旗袍</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="d" name="q1" value=4>
+                    <label for="d">D 睡衣睡褲</label>
+                    <div class="chosen">✔</div>
+                    <br> </div>
+                <div class="scroll"> <a href="#question2"><span></span>DOWN</a> </div>
+            </form>
+        </div>
+        <!--第一題結束-->
+        <!--TODO 第二題-->
+        <div class="wrapper">
+            <form>
+                <div id="question2" class="item">
+                    <div class="question"> 2. 在B612星球，你遇到了小王子，你認為小王子正在做甚麼? </div>
+                    <input type="radio" id="e" name="q2" value="1">
+                    <label for="e">A 清理小火山</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="f" name="q2" value="2">
+                    <label for="f">B 為玫瑰澆水</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="g" name="q2" value="3">
+                    <label for="g">C 清理猴麵包樹的種子</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="h" name="q2" value="4">
+                    <label for="h">D 安靜地坐著看夕陽</label>
+                    <div class="chosen">✔</div>
+                </div>
+                <div class="scroll"><a href="#question3"><span></span>DOWN</a> </div>
+            </form>
+        </div>
+        <!--第二題結束-->
+        <!--TODO 第三題-->
+        <div class="wrapper">
+            <form>
+                <div id="question3" class="item">
+                    <div class="question"> 3. 小王子問你地球上最偉大的職業，你會怎麼回答? </div>
+                    <input type="radio" id="i" name="q3" value="1">
+                    <label for="i">A 帶來美的藝術家</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="j" name="q3" value="2">
+                    <label for="j">B 創造經濟的商人</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="k" name="q3" value="3">
+                    <label for="k">C 治病救人的醫生</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="l" name="q3" value="4">
+                    <label for="l">D 使生活更便利的科技從業者</label>
+                    <div class="chosen">✔</div>
+                </div>
+                <div class="scroll"><a href="#question4"><span></span>DOWN</a></div>
+            </form>
+        </div>
+        <!--第三題結束-->
+        <!--TODO 第四題-->
+        <div class="wrapper">
+            <form>
+                <div id="question4" class="item">
+                    <div class="question"> 4. 小王子與你聊天之後想要到地球一探究竟，你會想帶他到哪個城市晃晃? </div>
+                    <input type="radio" id="m" name="q4" value="1">
+                    <label for="m">A 京都</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="n" name="q4" value="2">
+                    <label for="n">B 紐約</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="o" name="q4" value="3">
+                    <label for="o">C 維也納</label>
+                    <div class="chosen">✔</div>
+                    <br>
+                    <input type="radio" id="q" name="q4" value="4">
+                    <label for="q">D 北京</label>
+                    <div class="chosen">✔</div>
+                    <br> </div>
+                <button id="btn" class="btn">ENTER</button>
+            </form>
+        </div>
+        <!--第四題結束-->
+    </div>
+    <!--心理測驗結束-->
+    <!--解答一-->
+    <div class="container" id="answer1">
+        <div class="sentance"> <span>尋尋覓覓，冷冷清清，悽悽慘慘戚戚。<br>乍暖還寒時候，最難將息。</span></div>
+        <div class="aboutyou"><span>關於 你 ，與 李清照</span></div>
+        <div class="scroll"><a href="#explanation1"><span></span>DOWN</a></div>
+        <div class="explanation" id="explanation1"><span>你是能夠去細緻地體驗孤獨的人。
+                <br>生命有些時刻，一切蕭瑟至全然寂靜無聲，<br>好像連時間都要像斑駁的牆面一樣片片剝落了。<br>人世乍暖還寒，被推到邊界的人往往遭摧殘變形，<br>但你仍然保有敏感的心和眼睛，<br>能夠體察孤寂在對你訴說的話語，以及其中層次分明的內蘊。</span>
+            <br>
+            <div class="scroll"><a href="index.html"><span></span>BACK</a> </div>
+        </div>
+    </div>
+    <!--解答一結束-->
+    <!--解答二-->
+    <div class="container" id="answer2">
+        <div class="sentance"> <span>曉月墬，宿雲微，無語枕頻欹。 <br>夢回芳草思依依，天遠雁聲稀。</span></div>
+        <div class="aboutyou"><span>關於 你 ，與 李煜</span></div>
+        <div class="scroll"><a href="#explanation2"><span></span>DOWN</a></div>
+        <div class="explanation" id="explanation2"><span>你生命中或曾有一個人，讓你晝夜不寢，食不下咽；<br>讓你心如火烤，胸中積鬱。<br>但是無論如何請溫柔地輕聲告訴自己：沒關係的。<br>天際漸白時月亮和夜色就落下去了；<br>時間的風吹過後，雲層就散開了。<br>思念固然令人苦，但它也帶來一種沉定幽靜的風景。</span>
+            <br>
+            <div class="scroll"><a href="index.html"><span></span>BACK</a> </div>
+        </div>
+    </div>
+    <!--解答二結束-->
+    <!--解答三-->
+    <div class="container" id="answer3">
+        <div class="sentance"> <span>人有悲歡離合，月有陰晴圓缺，此事古難全。<br>但願人長久，千里共嬋娟。</span></div>
+        <div class="aboutyou"><span>關於 你 ，與 蘇軾</span></div>
+        <div class="scroll"><a href="#explanation3"><span></span>DOWN</a></div>
+        <div class="explanation" id="explanation3"><span>你擁有一顆開闊堅定的心。<br>即使看破人事無常、圓滿總是難全，<br>你仍然可以將心境超脫到另一個層次，來跨越世間既有隔閡。<br>江上明月，其光曖曖，恆是溫潤而堅定地照看。而江面將是一片朗朗……</span>
+            <br>
+            <div class="scroll"><a href="index.html"><span></span>BACK</a> </div>
+        </div>
+    </div>
+    <!--解答三結束-->
+    <!--解答四-->
+    <div class="container" id="answer4">
+        <div class="sentance"> <span>執手相看淚眼，竟無語凝噎。<br>念去去、千里煙波，暮靄沈沈楚天闊。</span></div>
+        <div class="aboutyou"><span>關於 你 ，與 柳永</span></div>
+        <div class="scroll"><a href="#explanation4"><span></span>DOWN</a></div>
+        <div class="explanation" id="explanation4"><span>你擁有一種柔軟的目光，有如初夏山嵐透著清晨微光的一種柔軟。<br>它可能平時藏匿在生活的隙縫，因為周遭刺眼的日光、城市裡明滅不定的燈火而被忽略。<br>這樣的柔軟在離別時特別容易出露，並混雜著憂傷被詩人捕捉。<br>把目光如長線般放出去的同時，不要忘了守護你的柔軟，<br>因為正是這些抵抗堅硬的，使你能更細膩地感知世界。</span>
+            <br>
+            <div class="scroll"><a href="index.html"><span></span>BACK</a> </div>
+        </div>
+    </div>
+    <!--解答四結束-->
+    <!--TODO FOOTER-->
+    <footer>
+        <div class="container"> </div>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

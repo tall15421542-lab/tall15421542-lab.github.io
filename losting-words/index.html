@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>losting word</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   <div class="homepage"></div>
+    <div class="container" id="content">
+        <!-- TODO jumbotron開始-->
+        <!-- /* NOTE 如何設定成滿板?-->
+        <section>
+            <div class="jumbotron">
+                <div class="container"> <img src="finish/logo.png" width="200"> </div>
+            </div>
+        </section>
+        <!--jumbotron結束-->
+        <!-- TODO 導覽列開始-->
+        <!-- /* 導覽列固定不動，透明度80%-->
+        <div class="container" id="nav">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!--導覽列 RWD選單圖示與品牌連結 -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">觸發縮放</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Losting Word</a> </div>
+                    <!-- 導覽列選項 與導覽列中的表單元素 -->
+                    <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!-- 導覽列中的導覽清單 -->
+                        <ul class="nav navbar-nav">
+                            <!-- active的選項-->
+                            <li><a href="index.html">首頁</a></li>
+                            <li><a href="index.html">關於詞</a></li>
+                            <!-- 導覽清單中的dropdown選單 -->
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"> 關於詞人 <span class="caret"></span></a>
+                                <!--span 小三角形的語法-->
+                                <ul class="dropdown-menu">
+                                    <li><a href="circle1.html">李清照</a></li>
+                                    <li><a href="circle2.html">李　煜</a></li>
+                                    <li><a href="circle3.html">歐陽脩</a></li>
+                                    <li><a href="circle4.html">辛棄疾</a></li>
+                                    <li><a href="circle5.html">周邦彥</a></li>
+                                    <li><a href="circle6.html">蘇　軾</a></li>
+                                    <li><a href="circle7.html">秦　觀</a></li>
+                                    <li><a href="circle8.html">晏　殊</a></li>
+                                    <li><a href="circle9.html">柳　永</a></li>
+                                    <li><a href="circle10.html">顧太清</a></li>
+                                    <li><a href="circle11.html">納蘭性德</a></li>
+                                    <li><a href="circle12.html">吳　藻</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="aboutyou.html">關於你</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <!--導覽列結束-->
+        <!-- TODO 概念大圖-->
+        <div class="pic"><img src="photos/1103_pic1.png"> </div>
+        <!-- TODO 詞人介紹開始-->
+        <section>
+            <div class="container">
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle1"><img src="photos/circle1.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle1.html">李清照</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle2"><img src="photos/circle2.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle2.html">李　煜</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle3"><img src="photos/circle3.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle3.html">歐陽脩</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle4"><img src="photos/circle2.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle4.html">辛棄疾</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle5"> <img src="photos/circle1.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle5.html">周邦彥</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle6"> <img src="photos/circle3.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle6.html">蘇　軾</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle7"><img src="photos/circle2.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle7.html">秦　觀</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle8"> <img src="photos/circle3.jpg" width="250" alt="">
+                        <div id="name"> <a href="circle8.html">晏　殊</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle9"> <img src="photos/circle1.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle9.html">柳　永</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle10"><img src="photos/circle1.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle10.html">顧太清</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle11"><img src="photos/circle2.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle11.html">納蘭性德</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6" id="circle">
+                    <div id="circle12"> <img src="photos/circle3.jpg" width="250" alt="">
+                        <link rel="stylesheet" href="#">
+                        <div id="name"><a href="circle12.html">吳　藻</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--TODO FOOTER-->
+        <footer>
+            <div class="container">
+                <div id="goTop">^</div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
